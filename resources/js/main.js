@@ -15,6 +15,11 @@ $(document).ready(function() {
 //    console.log(x.innerHTML);
      var randomNum = Math.floor((Math.random() * 8) + 1);
      $('#cardC').html(randomNum);
+     $(this).css('font-size', '7rem');
+     $(this).css('color', 'rgb(32, 64, 86)');
+     $(this).css('font-weight', '900');
+//     x.style.fontSize = "25px";
+//     x.style.color = "red";
      console.log(randomNum);
 
 
